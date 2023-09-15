@@ -4,17 +4,7 @@ import DateMonthYear from './DateMonthYear'
 
 const ExpenseItems = (props) => {
 
-  //  const [title, newTitle]=useState(props.title);
-
-  //  let value;
-
-  // let changeHandler= (e)=>{
-  //   value= e.target.value;
-  // }
-
-  // let changeTitle=()=>{
-  //   newTitle(document.getElementById('value').value);
-  // }
+  const [stateVariable, setStateVariable] = useState(initialValue);
 
   return (
 
