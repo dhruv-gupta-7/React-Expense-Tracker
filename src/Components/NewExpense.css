@@ -1,0 +1,56 @@
+.wrap{
+    height: 23rem;
+    width: 40%;
+    min-width: 18rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background-color: palevioletred;
+}
+
+.NewExpenseForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputFields{
+    width: max-content;
+}
+
+
+.inputField1{
+    width: 14rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: hidden;
+    height: 1.5rem;
+}
+
+.inputField2{
+    width: 14rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: hidden;
+    height: 1.5rem;
+}
+
+#selectDate{
+    width: 14rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: hidden;
+    height: 1.5rem;
+}
+
+#addExpense{
+    margin-top: 1.5rem;
+    background-color: rgb(94, 4, 38);
+    color: wheat;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    border: hidden;
+}
