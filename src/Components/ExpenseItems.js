@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
 import './ExpenseItems.css'
 import DateMonthYear from './DateMonthYear'
 
 const ExpenseItems = (props) => {
 
-  const [stateVariable, setStateVariable] = useState(initialValue);
 
   return (
 
